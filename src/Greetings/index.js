@@ -7,8 +7,6 @@ const Greetings = () => {
     <ReactContext.Consumer>
       {value => {
         const {languageState, languageGreetingsList, passChangeLanguage} = value
-
-        {
           return (
             <Div>
               <h1>Multilingual Greetings</h1>
@@ -35,7 +33,6 @@ const Greetings = () => {
               />
             </Div>
           )
-        }
       }}
     </ReactContext.Consumer>
   )
